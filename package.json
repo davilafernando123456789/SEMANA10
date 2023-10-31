@@ -1,23 +1,22 @@
 {
-  "name": "semana10",
+  "name": "sistemaapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "MEAN API REST",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "jose.davila.b@tecsup.edu.pe",
+  "author": "jcastanedaa@tecsup.edu.pe",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.6.3"
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0"
   }
 }
