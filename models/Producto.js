@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const ProductoSchema = mongoose.Schema({
-    
     producto: {
         type: String,
         require: true
@@ -21,7 +20,11 @@ const ProductoSchema = mongoose.Schema({
     fechaCreacion: {
         type: Date,
         default: Date.now()
+    },
+    imagen: {
+        nombre: String,  // Nombre del archivo de imagen
+        ruta: String     // Ruta de la imagen
     }
 });
 
-module.exports = mongoose.model('Producto', ProductoSchema)
+module.exports = mongoose.model('Producto', ProductoSchema);
